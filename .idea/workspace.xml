@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fcfb6e3-71b2-406f-b314-b3e2ffeea19c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1/task1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/task2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/task4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task5/task5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task6/task6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task7/task7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task8/task8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="1fcfb6e3-71b2-406f-b314-b3e2ffeea19c" name="Changes" comment="Первые 4 задания с тестами и комментариями, модулями" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +55,19 @@
       <option name="presentableId" value="Default" />
       <updated>1771488932877</updated>
     </task>
+    <task id="LOCAL-00001" summary="Первые 4 задания с тестами и комментариями, модулями">
+      <option name="closed" value="true" />
+      <created>1771502017238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771502017238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первые 4 задания с тестами и комментариями, модулями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первые 4 задания с тестами и комментариями, модулями" />
   </component>
 </project>
