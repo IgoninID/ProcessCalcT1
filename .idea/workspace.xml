@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fcfb6e3-71b2-406f-b314-b3e2ffeea19c" name="Changes" comment="Первые 4 задания с тестами и комментариями, модулями" />
+    <list default="true" id="1fcfb6e3-71b2-406f-b314-b3e2ffeea19c" name="Changes" comment="Первые 4 задания с тестами и комментариями, модулями">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/task5/task5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task6/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/task6/task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task7/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/task7/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/task8/task8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IgoninID&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IgoninID/ProcessCalcT1.git&quot;,
+    &quot;accountId&quot;: &quot;ad0650fd-cc8b-4788-84d9-d226a101ba39&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="39sdu5SxqHC56HF4twy9vwfB7fn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,6 +53,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
+    "Python.task8.executor": "Run",
     "Python.tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -63,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771502017238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Первые 4 задания с тестами и комментариями, модулями">
+      <option name="closed" value="true" />
+      <created>1771502075085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771502075085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

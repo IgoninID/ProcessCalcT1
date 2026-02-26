@@ -8,13 +8,22 @@ import task5.task5 as t5
 import task6.task6 as t6
 import task7.task7 as t7
 import task8.task8 as t8
+from task8.task8 import *
 
 def test1() -> None:
+    """
+    Тестирование 1 задачи
+    :return:
+    """
     assert t1.act(1, 1, 1) == 2
     assert t1.act(1,1,2) == 0
     assert t1.act(1,1,3) == 1
 
 def test2() -> None:
+    """
+    Тестирование 2 задачи
+    :return:
+    """
     numbers0: list[float] = [0.1, 0.3, 0.5]
     numbers1: list[float] = [0.2, 0.5, 0.1]
     numbers2: list[float] = [0.3, 0.1, 0.4]
@@ -51,6 +60,10 @@ def test2() -> None:
     assert t2.act([1, 2, 5, 6]) == 1
 
 def test3() -> None:
+    """
+    Тестирование 3 задачи
+    :return:
+    """
     numbers0: list[float] = [-6, -4, -2]
     numbers1: list[float] = [-6, -2, -4]
     numbers2: list[float] = [-3, -5, -8]
@@ -79,6 +92,10 @@ def test3() -> None:
     assert t3.act(1, 1, [5, 4, 3, 67]) == 1
 
 def test4() -> None:
+    """
+    Тестирование 4 задачи
+    :return:
+    """
     assert t4.fact(-5) == "Факториал не существует для отрицательных чисел"
     assert t4.fact(0) == 1
     assert t4.act(0) == 0
@@ -88,6 +105,62 @@ def test4() -> None:
     assert t4.act(2) == 1.5
     assert t4.fact(5) == 120
     assert abs(t4.act(5) - 1.716) < 0.001
+
+def test5() -> None:
+    """
+    Тестирование 5 задачи
+    :return:
+    """
+    assert t5.act([]) == 0.0
+    assert t5.act([0.0]) == 0.0
+    assert abs(t5.act([10.0]) - 46.754) < 0.001
+    assert abs(t5.act([-10.0]) - 173.245) < 0.001
+    assert abs(t5.act([-5.0, 10.0, -60.0]) -4688.631) < 0.001
+    assert abs(t5.act([-1.0, -2.0, -3.0, -4.0]) - 74.049) < 0.001
+    assert abs(t5.act([1, 2, 3, 4]) - 5.950) < 0.001
+
+
+def test6() -> None:
+    """
+    Тестирование 6 задачи
+    :return:
+    """
+    assert t6.act([]) == 0
+    assert t6.act([2]) == 0
+    assert t6.act([9]) == 1
+    assert t6.act([0]) == 0
+    assert t6.act([1, 2, 3, 4, 5]) == 3
+    assert t6.act([2, 4, 6, 8, 10]) == 0
+    assert t6.act([1, 3, 5, 7, 9]) == 5
+
+
+def test7() -> None:
+    """
+    Тестирование 7 задачи
+    :return:
+    """
+    assert t7.act(1, 1) == 0
+    assert t7.act(0, 0) == 0
+    assert t7.act(1, 2) == 1
+    assert t7.act(5, 2) == 4101
+    assert t7.act(3, 10) == 5840
+    assert t7.act(10, 15) == 983455
+    assert t7.act(20, 20) == 69713280
+
+def test8() -> None:
+    """
+    Тестирование 8 задачи
+    :return:
+    """
+    arr = [[1, 1, 1], [1, 1, 1]]
+    matr = array(arr)
+    p = [2, 2, 2]
+    q = [3, 3, 3]
+    matr = t8.act(matr, p, q, 0, 1)
+    matrt= array([[1, 1, 3, 1], [2, 2, 3, 2], [1, 1, 3, 1]])
+    for i in range(0, 3):
+        for j in range(0, 4):
+            assert matr[i, j] == matrt[i, j]
 
 def test_frame() -> None:
     assert 1 == 1
