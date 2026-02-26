@@ -157,6 +157,7 @@ def test8() -> None:
     p = [2, 2, 2]
     q = [3, 3, 3]
     matr = t8.act(matr, p, q, 0, 1)
+    print(matr)
     matrt= array([[1, 1, 3, 1], [2, 2, 3, 2], [1, 1, 3, 1]])
     for i in range(0, 3):
         for j in range(0, 4):
