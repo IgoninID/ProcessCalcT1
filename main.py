@@ -8,7 +8,7 @@ import task5.task5 as t5
 import task6.task6 as t6
 import task7.task7 as t7
 import task8.task8 as t8
-from tests import test1, test2, test3, test4, test5, test6, test7, test8, test_frame
+from tests import test1, test2, test3, test4, test5, test6, test7, test8
 
 test1()
 test2()
@@ -18,7 +18,6 @@ test5()
 test6()
 test7()
 test8()
-test_frame()
 
 def main():
     task = int(input("Введите номер задачи: "))
@@ -95,6 +94,28 @@ def main():
 
     elif task == 8:
         print(t8.term)
+        n = int(input("Введите количество строк матрицы: "))
+        matr:list = []
+        for i in range(n):
+            row_input = input(f"Введите элементы {i+1}-й строки через пробел(количество элементов = количество строк + 1)").split()
+            if len(row_input) != n+1:
+                row_input = input(f"Введите элементы {i + 1}-й строки через пробел(количество элементов = количество строк + 1)").split()
+            matr.append([float(el) for el in row_input])
+        print(matr)
+        numbers_str: list[float] = list(range(0, n+1))
+        for i in range(0, n+1):
+            numbers_str[i] = float(input(f"Введите {i} элемент: "))
+        numbers_sl: list[float] = list(range(0, n+1))
+        for i in range(0, n+1):
+            numbers_sl[i] = float(input(f"Введите {i} элемент: "))
+        p = int(input("Введите номер строки после которой будет вставлен массив (p <= n): "))
+        while p > n:
+            p = int(input("Введите номер строки после которой будет вставлен массив (p <= n): "))
+        q = int(input("Введите номер столбца после которого будет вставлен массив (q <= n+1): "))
+        while q > n+1:
+            q = int(input("Введите номер столбца после которого будет вставлен массив (q <= n+1): "))
+        matr = t8.act(matr, numbers_str, numbers_sl, p, q)
+        print("Результат задания: ", matr)
 
 if __name__ == "__main__":
     main()

@@ -157,11 +157,26 @@ def test8() -> None:
     p = [2, 2, 2]
     q = [3, 3, 3]
     matr = t8.act(matr, p, q, 0, 1)
-    print(matr)
     matrt= array([[1, 1, 3, 1], [2, 2, 3, 2], [1, 1, 3, 1]])
     for i in range(0, 3):
         for j in range(0, 4):
             assert matr[i, j] == matrt[i, j]
 
-def test_frame() -> None:
-    assert 1 == 1
+    arr1 = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
+    matr1 = array(arr1)
+    p = [13, 14, 15, 16]
+    q = [18, 19, 20, 21]
+    matr1 = t8.act(matr1, p, q, 2, 3)
+    matrt1 = array([[1, 2, 3, 4, 18], [5, 6, 7, 8, 19], [9, 10, 11, 12, 20], [13, 14, 15, 16, 21]])
+    for i in range(0, 4):
+       for j in range(0, 5):
+            assert matr1[i, j] == matrt1[i, j]
+
+    matr2 = array(arr1)
+    p = [13, 14, 15, 16]
+    q = [18, 19, 20, 21]
+    matr2 = t8.act(matr2, p, q, 0, 0)
+    matrt2 = array([[1, 18, 2, 3, 4], [13, 19, 14, 15, 16], [5, 20, 6, 7, 8], [9, 21, 10, 11, 12]])
+    for i in range(0, 4):
+       for j in range(0, 5):
+            assert matr2[i, j] == matrt2[i, j]

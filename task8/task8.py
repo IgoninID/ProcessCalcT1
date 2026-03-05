@@ -14,23 +14,6 @@ def act(matr, a: list[float], b:list[float], p: int, q:int):
     :param q: Столбец после которого должен быть столбец с массивом b
     :return: Измененная матрица
     """
-    """
-    n = matr.shape[0]
-    newmatr=zeros((n+1, n+1))
-    i = 0
-    while i < n:
-        if i == p + 1:
-            newmatr[i] = a
-            newmatr[i+1] = matr[i]
-            i += 2
-        else:
-            newmatr[i] = matr[i]
-            i += 1
-    print(newmatr)
-    """
-
-
-
     matr=insert(matr, p+1, a, axis=0)
     matr=insert(matr, q+1, b, axis=1)
 
